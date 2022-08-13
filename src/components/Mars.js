@@ -1,5 +1,5 @@
 import React from 'react'
-import europa from "../images/Europa.png";
+import europa from "../images/mars.png";
 import {Link} from 'react-router-dom';
 import { Slide } from "react-awesome-reveal";
 
