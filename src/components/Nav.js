@@ -25,7 +25,7 @@ const Nav = () => {
             Links.map((link,index)=>(
             <li key={index} className=" md:inline-block md:ml-10 ml-5 border-b-2 border-transparent hover:border-white duration-300 md:my-0 my-6 ">
 
-                <a href="#" className="text-white text-4xl font-bold hover:drop-shadow-lg  hover:font-extrabold md:py-5 py-3 inline-block font-normal"><span className="font-bold mr-1.5">0{index}</span>{link.name}</a>
+                <a href="https://accounts.google.com/v3/signin/confirmidentifier?dsh=S-1542722583%3A1687960964705476&authuser=0&continue=https%3A%2F%2Fmeet.google.com%2Fhbo-ruqv-iaa&followup=https%3A%2F%2Fmeet.google.com%2Fhbo-ruqv-iaa&ifkv=Af_xneG1n5_L_NeKyOn7MGB5ns5mDo4A7gdq81_9MofLYiBI1w2h_ZKvgavw7oh6z6vMvl6kmDanWg&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin" className="text-white text-4xl font-bold hover:drop-shadow-lg  hover:font-extrabold md:py-5 py-3 inline-block font-normal"><span className="font-bold mr-1.5">0{index}</span>{link.name}</a>
                 
                 
             </li> 

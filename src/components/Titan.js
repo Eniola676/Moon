@@ -32,8 +32,8 @@ const Titan = ({setDestination}) => {
                         <li className='inline-block cursor-pointer md:mr-8 md:mx-0 mx-4 hover:border-b-2 md:ml-2'>TITAN</li>
                     </Link>
                 </ul>
-                <h1 className='text-white w-full font-Bellefair pb-2 text-7xl text-center md:text-left md:pt-3 '>Titan</h1>
-                <p className='text-white font-extralight md:text-3xl md:text-left text-center md:w-2/3 md:pl-1 pb-10 md:leading-loose tracking-wider border-b-[0.5px] border-white '>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet distinctio consectetur, maiores corrupti commodi dolore nulla atque ipsa molestiae magnam fugit sed sequi omnis est fuga mollitia error. Neque, unde.</p>
+                <h1 className='text-white w-full font-Bellefair pb-2 text-7xl text-center md:text-left md:pt-3 '>TITAN</h1>
+                <p className='text-white font-extralight md:text-xl md:text-left text-center md:w-2/3 md:pl-1 pb-10 md:leading-loose tracking-wider border-b-[0.5px] border-white '>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet distinctio consectetur, maiores corrupti commodi dolore nulla atque ipsa molestiae magnam fugit sed sequi omnis est fuga mollitia error. Neque, unde.</p>
                 <div className="flex md:justify-between justify-around lg:w-1/2 w-auto pt-10 ">
                     <div>
                         <span className="text-[#d2d8f9] text-3xl">Avg. distance(mi)</span>
