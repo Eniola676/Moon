@@ -5,7 +5,7 @@ const Register = () =>{
     return(
         <div>
 
-            login
+            Register
 
         </div>
     )
