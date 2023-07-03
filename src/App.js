@@ -7,6 +7,7 @@ import Titan from "./components/Titan";
 import {Routes, Route} from "react-router-dom";
 import Register from "./components/Register";
 import Login from "./components/Login";
+import Destination from "./components/Destination"
 
 
 const App =()=>{
@@ -18,12 +19,12 @@ const App =()=>{
         <Nav/>
       
         <Routes> 
-          <Route path="/" element={<Moon setDestination={setDestination}/>} />  
-          <Route path="/europa" element={<Europa setDestination={setDestination}/>} />
+          <Route path="/destination/*" element={<Destination />} />  
+          {/* <Route path="/europa" element={<Europa setDestination={setDestination}/>} />
           <Route path="/mars" element={<Mars setDestination={setDestination}/>} />
           <Route path="/titan" element={<Titan setDestination={setDestination}/>} />
           <Route path="/login" element={<Login setDestination={setDestination}/>} />
-          <Route path="/register" element={<Register setDestination={setDestination}/>} />
+          <Route path="/register" element={<Register setDestination={setDestination}/>} /> */}
         </Routes>
         {/* make the link to moon the link to the pick destination page and login home page  */}
             

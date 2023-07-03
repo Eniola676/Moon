@@ -2,6 +2,7 @@ import React from "react";
 import europa from "../images/Europa.png";
 import { Link } from "react-router-dom";
 import { Slide } from "react-awesome-reveal";
+import Nav2 from "./Nav2";
 
 const Europa = ({ setDestination }) => {
   const select = (e) => {
@@ -25,28 +26,7 @@ const Europa = ({ setDestination }) => {
           className="md:w-[25%] w-[12%] md:py-0 py-4  mx-auto hover:animate-pulse"
         />
         <div className="md:w-1/2">
-          <ul className="text-white md:text-4xl text-3xl pb-4">
-            <Link to="/">
-              <li className="inline-block cursor-pointer md:mr-8 md:mx-0 mx-4 hover:border-b-2 md:ml-2">
-                MOON
-              </li>
-            </Link>
-            <Link to="/europa">
-              <li className="inline-block cursor-pointer md:mr-8 md:mx-0 mx-4 hover:border-b-2 md:ml-2">
-                EUROPA
-              </li>
-            </Link>
-            <Link to="/mars">
-              <li className="inline-block cursor-pointer md:mr-8 md:mx-0 mx-4 hover:border-b-2 md:ml-2">
-                MARS
-              </li>
-            </Link>
-            <Link to="/titan">
-              <li className="inline-block cursor-pointer md:mr-8 md:mx-0 mx-4 hover:border-b-2 md:ml-2">
-                TITAN
-              </li>
-            </Link>
-          </ul>
+          <Nav2 />
           <h1 className="text-white w-full font-Bellefair pb-2 text-7xl text-center md:text-left md:pt-3 ">
             EUROPA
           </h1>
